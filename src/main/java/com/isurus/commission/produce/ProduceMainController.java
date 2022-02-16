@@ -1,4 +1,4 @@
-package com.isurus.commission.produce.web;
+package com.isurus.commission.produce;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,6 @@ public class ProduceMainController {
     @GetMapping("/main")
     @ResponseBody
     public String abc(){
-        System.out.println("하하");
         return "/produce/main called successfully";
     }
 }
