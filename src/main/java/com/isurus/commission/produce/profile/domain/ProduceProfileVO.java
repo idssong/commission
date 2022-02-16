@@ -2,15 +2,19 @@ package com.isurus.commission.produce.profile.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@RequiredArgsConstructor
 public class ProduceProfileVO {
-
-    private String pdId;
+    @NonNull
+    private String userId;
+    @NonNull
+    private Integer pdId;
+    @NonNull
     private String pdName;
-    private String pdAbc;
+
 
 }

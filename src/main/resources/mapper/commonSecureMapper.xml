@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace는 방근 만든 인터페이스를 가리키고 있어야 연결됩니다. -->
+<mapper namespace="com.isurus.commission.common.repository.CommonSecureMapper">
+
+</mapper>
